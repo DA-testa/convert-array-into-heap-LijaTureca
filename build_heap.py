@@ -43,7 +43,7 @@ def main():
         if 'a' in file:
             print("wrong file name")
         else:
-         with open(name,"r") as file:
+         with open(file,"r") as file:
                 o=int(file.readline())
                 lines=file.readlines()
                 numbers=lines[1:]
