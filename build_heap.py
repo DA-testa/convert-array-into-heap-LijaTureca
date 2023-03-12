@@ -39,11 +39,11 @@ def main():
     
     if 'F' in command:
         file=input()
-        name="test/"+file
+        name="tests/"+file
         if 'a' in file:
             print("wrong file name")
         else:
-         with open(file,"r") as file:
+         with open(name,"r") as file:
                 o=int(file.readline())
                 lines=file.readlines()
                 numbers=lines[1:]
