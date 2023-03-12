@@ -1,8 +1,8 @@
 # python3
 import re
 
-def build_heap(data):
-        n = len(arr)
+def build_heap(arr):
+    n = len(arr)
     swaps = []
     for i in range(n//2, -1, -1):
         j = i
