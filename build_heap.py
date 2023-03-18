@@ -34,7 +34,7 @@ def main():
      num=re.split(' ',for_arr)
      for x in num: 
         arr.append(int(x))
-    # # assert len(arr) == a
+    
 
     
     if 'F' in command:
@@ -51,7 +51,7 @@ def main():
                     num=re.split(' ',numbers)
                     for x in num:
                      arr.append(int(x))
-    # assert len(arr) == a
+    
                     
     num_swaps, swaps = build_heap(arr)
 
